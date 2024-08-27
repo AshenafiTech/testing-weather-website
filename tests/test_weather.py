@@ -13,10 +13,10 @@ def browser():
 def test_weather_search(browser):
     context1 = browser.new_context()
     context2 = browser.new_context()
-    
+
     # Mock the API response for "New York" in context1
     mock_weather_api_response(context1, "New York")
-    
+
     # Mock the API response for "Addis Ababa" in context2
     mock_weather_api_response(context2, "Addis Ababa")
 
