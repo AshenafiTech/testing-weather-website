@@ -13,7 +13,7 @@ This project is designed to test the functionality of a public weather website u
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/weather-website-testing.git
+   git clone https://github.com/ashyea/weather-website-testing.git
    cd weather-website-testing
 
 ## How to run
