@@ -8,15 +8,6 @@ This project is designed to test the functionality of a public weather website u
 - Playwright Python library
 - pytest
 
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/Ashyea/weather-website-testing.git
-   cd testing-website-testing
-
-
 ## How to run
 To run the tests, use the command:
 
