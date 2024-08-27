@@ -24,4 +24,4 @@ def pagination_and_dynamic_content(page):
         assert tab.lower() in header_text.lower() and "weather" in header_text.lower(), f"Tab '{tab}' content not found."
 
         # Take a screenshot for each tab
-        page.screenshot(path=f'screenshots/weather_{tab.lower().replace(" ", "_")}.png')
+        page.screenshot(path=f'screenshots/weather_{tab.lower().replace(" ", "_")}.png', timeout=10000)
